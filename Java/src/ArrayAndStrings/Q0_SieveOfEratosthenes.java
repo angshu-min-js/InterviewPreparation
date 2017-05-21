@@ -1,6 +1,6 @@
 package ArrayAndStrings;
 
-public class SieveOfEratosthenes {
+public class Q0_SieveOfEratosthenes {
 	static void SieveOfEratosthenes(int n) {
 	    boolean prime[] = new boolean[n+1];
 	    for(int i=0;i<n;i++)

@@ -1,6 +1,6 @@
 package ArrayAndStrings;
 
-public class spiralOrder {
+public class Q0_spiralOrder {
 	
 	static void spiralOrder(int [][] matrix){
 		if(matrix.length ==0)

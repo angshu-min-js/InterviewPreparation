@@ -1,6 +1,6 @@
 package ArrayAndStrings;
 
-public class ArrayMultiply{
+public class Q0_ArrayMultiply{
     public static int[] multiply(int x [], int y [], int a, int b){
       int result[] = new int[a+b];
       for(int i = a-1; i>=0;i--){
