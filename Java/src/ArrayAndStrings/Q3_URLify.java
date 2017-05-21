@@ -3,14 +3,15 @@ package ArrayAndStrings;
 class Q3_URLify {
 	  static char[] spaceCount(String s){
 		int space = 0;
-		char str [] = s.toCharArray();
-		for(int i=0;i<s.length();i++){
+		String s1 = s.trim();
+		char str [] = s1.toCharArray();
+		for(int i=0;i<s1.length();i++){
 			if(str[i]==' ')
 				space++;
 		} 
-		int index = s.length()+space*2;
+		int index = s1.length()+space*2;
 		char str2 [] = new char[index];
-		for(int i=s.length()-1;i>=0;i--){
+		for(int i=s1.length()-1;i>=0;i--){
 			if(str[i]==' '){
 				str2[index-1]='0';
 				str2[index-2]='2';
