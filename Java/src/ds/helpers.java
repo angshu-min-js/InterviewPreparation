@@ -1,8 +1,5 @@
 package ds;
 
-import java.util.LinkedList;
-
-import sun.awt.image.ImageWatched.Link;
 
 public class helpers {
 	public static int randomInt(int n) {
