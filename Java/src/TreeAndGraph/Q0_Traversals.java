@@ -1,7 +1,7 @@
 package TreeAndGraph;
 
 import ds.TreeNode;
-
+/* DFS */
 public class Q0_Traversals {
 	public static void visit(TreeNode node){
 		if(node!=null) System.out.println(node.data);
