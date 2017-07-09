@@ -13,4 +13,4 @@
 - And find boundaries within our problem domain that help ensure that related behavior is in one place, and that communicate with other boundaries as loosely as possible but with a high cohesion
 - Bounded Context: A specific responsibility enforced by explicit boundaries.
 - Example:
-![alt text](https://raw.githubusercontent.com/angshu-min-js/InterviewPreparation/main/images/image01.jpg)
+![alt text](https://raw.githubusercontent.com/angshu-min-js/InterviewPreparation/master/images/image01.jpg)
